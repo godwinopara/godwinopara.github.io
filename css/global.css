@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+

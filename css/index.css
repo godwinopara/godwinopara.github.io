@@ -1,0 +1,81 @@
+main {
+  min-height: 100vh;
+  padding: 5rem 2rem;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 95%);
+  margin: 2rem 0 1.5rem;
+  font-size: 2rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedans,
+.luxury,
+.suv {
+  padding: 3rem;
+  min-height: 350px;
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    width: 33.3%;
+  }
+
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+    width: 33.3%;
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 33.3%;
+  }
+
+  .sedans button {
+    color: hsl(31, 77%, 52%);
+  }
+
+  .luxury button {
+    color: hsl(184, 100%, 22%);
+  }
+
+  .suv button {
+    color: hsl(179, 100%, 13%);
+  }
+}
+
