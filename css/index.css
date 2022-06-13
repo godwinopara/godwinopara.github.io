@@ -65,6 +65,7 @@ p {
   nav {
     max-width: 900px;
     margin: 1rem auto;
+    text-align: center;
   }
 
   .sedans {
